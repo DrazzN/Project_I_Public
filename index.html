@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <style>
+        @media(min-width: 780px) {
+            .form-input{
+                width: 45%;
+            }
+        }
+        .img row {
+            background: white;
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px;
+        }
+
+        .login img {
+            border-radius: 30px;
+        }
+
+        .text-box {
+            font-size: 20px;
+            border-bottom: 1px solid #4caf50;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">eLearning</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#learn">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instrustors" tabindex="-1" aria-disabled="true">Instrustors</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex py-5 align-items-center justify-content-between">
+                <div>
+                    <h1>Start Learning<span class="d-sm-flex text-warning">What You Find Interesting</span></h1>
+                    <p class="lead my-4">
+                        Expand your opportunities withcouirses of your own choice. We
+                        provide the tools and skills to teach what you love.
+                    </p>
+                    <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-md-block" src="img/flowers.webp" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="login mb-5 p-5 bg-light bg-image"
+    style="
+      background-image: url('img/lg-back.webp');
+      background-size: cover;
+      height: 600px;
+    ">
+    
+        <div class="container">
+            <div class="mx-auto">
+                <div class="row">
+                    <!--HIdden only on sm-->
+                    <div class="img-row">
+                        <img id="img-a" class="img-thumbnail d-none d-sm-none d-md-none d-lg-block" src="img/clip_tree.png" alt="" >
+                    <!--Visible only on sm-->
+                        <img id="img-b" class="img-thumbnail d-block d-sm-block d-md-block d-lg-none" src="img/tree.png" alt="" >
+                    </div>
+                    
+                    <!--
+                    <div class="col-5">
+                        <h1 class="text-center mb-3">Login</h1>
+                        <form action="#" class="form">
+                            
+                            <div class="col-6 mx-5 text-box form-floating">
+                                <input class="form-control border-0" id="floatingUsername" type="text" placeholder="Username" name="" value="">
+                                <label for="floatingUsername">Username</label>
+                            </div>
+                            <div class="col-6 mx-5 text-box form-floating">
+                                <input class="form-control border-0" id="floatingPassword" type="password" placeholder="Password" name="" value="">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="d-block">
+                                <button class="btn btn-primary btn-block">Log In</button>
+                            </div>
+                            
+                        </form>
+                    </div>-->
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
