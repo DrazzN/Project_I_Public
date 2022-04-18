@@ -1,38 +1,38 @@
 <div class="col-3">
   <div class="d-flex flex-column flex-shrink-0 p-3 text-dark bg-light" style="width: 280px;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <img class="logo img mx-2" src="http://localhost/Project_I_Public2/img/settings-outline.svg" alt="">
+      <img class="logo img mx-2" src="http://localhost/Project_I_Public/img/settings-outline.svg" alt="">
       <span class="fs-4">Sidebar</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
         <a href="#" class="nav-link active" aria-current="page">
-          <img class="img mx-2" src="http://localhost/Project_I_Public2/img/home-outline.svg" alt="">
+          <img class="img mx-2" src="http://localhost/Project_I_Public/img/home-outline.svg" alt="">
           Home
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-dark">
-          <img class="img mx-2" src="http://localhost/Project_I_Public2/img/settings-outline.svg" alt="">
+          <img class="img mx-2" src="http://localhost/Project_I_Public/img/settings-outline.svg" alt="">
           Dashboard
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-dark">
-          <img class="img mx-2" src="http://localhost/Project_I_Public2/img/apps-outline.svg" alt="">
+          <img class="img mx-2" src="http://localhost/Project_I_Public/img/apps-outline.svg" alt="">
           Events
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-dark">
-          <img class="img mx-2" src="http://localhost/Project_I_Public2/img/library-outline.svg" alt="">
+          <img class="img mx-2" src="http://localhost/Project_I_Public/img/library-outline.svg" alt="">
           Assignnments
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-dark">
-          <img class="img mx-2" src="http://localhost/Project_I_Public2/img/person-outline.svg" alt="">
+          <img class="img mx-2" src="http://localhost/Project_I_Public/img/person-outline.svg" alt="">
           Users
         </a>
       </li>

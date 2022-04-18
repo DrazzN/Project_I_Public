@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Course · e-learnings</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <?php define('base_url', 'http://localhost/Project_IPublic2/'); ?>
-    <link href="http://localhost/Project_I_Public2/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <?php define('base_url', 'http://localhost/Project_IPublic/'); ?>
+    <link href="http://localhost/Project_I_Public/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -71,7 +71,7 @@
             color: #000000;
         }
     </style>
-    <!--<link href="http://localhost/Project_I_Public2/bootstrap/css/sidebars.css" rel="stylesheet">
+    <!--<link href="http://localhost/Project_I_Public/bootstrap/css/sidebars.css" rel="stylesheet">
     -->
 
 
