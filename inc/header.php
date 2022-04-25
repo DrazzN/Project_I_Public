@@ -70,6 +70,12 @@
             text-decoration: none;
             color: #000000;
         }
+        .btn-mycolorpic {
+            background: #6c5ce7;
+        }
+        .text-mycolorpic {
+            color: #6c5ce7;
+        }
     </style>
     <!--<link href="http://localhost/Project_I_Public/bootstrap/css/sidebars.css" rel="stylesheet">
     -->

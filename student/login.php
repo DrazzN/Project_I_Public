@@ -22,11 +22,11 @@ require_once('../inc/header.php');
                 <div class="col-md-10 mx-auto col-lg-5">
                     <form class="p-4 p-md-5 border rounded-3 bg-light">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="john">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="john" name="student_id" required>
                             <label for="floatingInput">Student ID</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
                             <label for="floatingPassword">Password</label>
                         </div>
                         <!--<div class="checkbox mb-3">
@@ -34,12 +34,13 @@ require_once('../inc/header.php');
                                 <input type="checkbox" value="remember-me"> Remember me
                             </label>
                         </div>-->
-                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
+                        
+                        <button class="w-100 btn btn-lg btn-mycolorpic" type="submit">Sign In</button>
                         <hr class="my-4">
                         <small class="text-muted">
-                            <div class="col-8">
-                                <a href="http://localhost/Project_I_Public/">Go Back</a>
-                            </div>
+                            <p>Don't have an account ?
+                            <a class="align-content-start text-mycolorpic" href="http://localhost/Project_I_Public/student/register.php">Register Here</a></p>
+                            <a href="http://localhost/Project_I_Public/portal.php">Go Back</a>
                         </small>
                     </form>
                 </div>
@@ -49,12 +50,8 @@ require_once('../inc/header.php');
         </div>
 
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>
 

@@ -12,7 +12,7 @@
                     <div class="card shadow">
                         <div class="card-body">
                             <h1 class="card-title">Admin</h1>
-                            <img class="img logo" src="http://localhost/Project_I_Public/img/settings-outline.svg" alt="">
+                            <img class="img logo" src="http://localhost/Project_I_Public/img/ico/people-sharp.svg" alt="">
                             <p class="card-text">
                                 <small><i>Signin to Admin pannel.</i></small>
                         </div>
@@ -24,7 +24,7 @@
                     <div class="card shadow">
                         <div class="card-body">
                             <h1 class="card-title">Faculty</h1>
-                            <img class="img logo" src="http://localhost/Project_I_Public/img/settings-outline.svg" alt="">
+                            <img class="img logo" src="http://localhost/Project_I_Public/img/ico/user-tie-solid.svg" alt="">
                             <p class="card-text">
                                 <small><i>Signin to Faculty Side.</i></small>
                         </div>
@@ -36,7 +36,7 @@
                     <div class="card shadow">
                         <div class="card-body">
                             <h1 class="card-title">Student</h1>
-                            <img class="img logo" src="http://localhost/Project_I_Public/img/settings-outline.svg" alt="">
+                            <img class="img logo" src="http://localhost/Project_I_Public/img/ico/people-circle-sharp.svg" alt="">
                             <p class="card-text">
                                 <small><i>Signin or Register.</i></small>
                         </div>

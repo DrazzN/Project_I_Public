@@ -38,7 +38,7 @@ require_once('../inc/header.php');
                         <hr class="my-4">
                         <small class="text-muted">
                             <div class="col-8">
-                                <a href="http://localhost/Project_I_Public/">Go Back</a>
+                                <a href="http://localhost/Project_I_Public/portal.php">Go Back</a>
                             </div>
                         </small>
                     </form>
