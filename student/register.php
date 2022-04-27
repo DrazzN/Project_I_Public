@@ -1,5 +1,5 @@
 <?php 
-include '../config.php'; 
+require_once '../config.php'; 
 //error_reporting(0);
 $email = $student_id = $password = $cpassword = "";
 if(isset($_POST['submit'])) {
@@ -9,12 +9,12 @@ if(isset($_POST['submit'])) {
   $cpassword = md5($_POST['cpassword']);
 
 	if ($password == $cpassword) {
-		$sql = "SELECT * FROM users WHERE email='$email'";
-		$result = mysqli_query($conn, $sql);
-		if (!$result->num_rows > 0) {
-			$sql = "INSERT INTO users (student_id, email, password)
+		$que = "SELECT * FROM users WHERE email='$email'";
+    $results = $pdo->query($que);
+		if (!$result) {
+			$que = "INSERT INTO users (student_id, email, password)
 					VALUES ('$student_id', '$email', '$password')";
-			$result = mysqli_query($conn, $sql);
+					$results = $pdo->query($que);
 			if ($result) {
 				echo "<script>alert('Wow! User Registration Completed.')</script>";
 				$username = "";
@@ -37,9 +37,9 @@ if(isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html lang="en" class="" style="height: auto;">
 
-<?php
-require_once('../inc/header.php');
-?>
+<head>
+<?php require_once('../inc/header.php'); ?>
+</head>
 
 <body class="hold-transition login-page">
   <section class="login mb-5 p-5 text-center bg-light bg-image" style="
@@ -93,9 +93,7 @@ require_once('../inc/header.php');
     </div>
 
   </section>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+  <?php require_once('../inc/script.php'); ?>
 </body>
 
 </html>
